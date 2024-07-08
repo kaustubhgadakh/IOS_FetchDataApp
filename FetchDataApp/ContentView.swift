@@ -62,7 +62,7 @@ struct ContentView: View {
     }
 
     func getUser() async throws -> GitHubUser{
-        let endpoint = "http://api.github.com/users"
+        let endpoint = "http://api.github.com/users/kaustubhgadakh"
         guard let url = URL(string: endpoint) else{
             throw GHError.invalidURL
         }
